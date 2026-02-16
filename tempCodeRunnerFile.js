@@ -1,0 +1,1 @@
+ // i= Math.floor(i/10)
