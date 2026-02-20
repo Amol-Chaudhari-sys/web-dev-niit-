@@ -33,7 +33,7 @@
 
 
 const prompt = require("prompt-sync")();
-let name = prompt ("enter a number : ")
+let name = prompt ("enter the name  : ")
 console.log ("hello ",name);
 
 // let n= prompt ("Enter the number ");
@@ -48,7 +48,7 @@ a=parseInt(a);
 b=parseInt(b);
 c=prompt("enter operatop + - x /  ");
 
-switch(c):{
+switch(c){
     case "+":
         console.log("addition :",a+b );
         break;
